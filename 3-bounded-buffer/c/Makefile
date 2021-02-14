@@ -1,6 +1,6 @@
 CC = gcc
 
-CFLAGS = -Wall -g -std=gnu99 
+CFLAGS = -Wall -g -std=gnu99 -Wextra -Wall -fanalyzer -Werror
 LDFLAGS = -lpthread -g
 SRC = main.c ringbuf.c
 
